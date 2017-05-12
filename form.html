@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- sekat penjelas -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form Sign Up</title>
+    <meta description="Sign Up Form">
+</head>
+<!-- sekat penjelas -->
+
+<body>
+    <h1>Buat Account Baru!</h1>
+    <h3>Sign Up Form</h3>
+    <!-- text field -->
+    <form action="welcome.html" method="post">
+
+        <label for="first-name">First name:</label><br>
+        <input id="first-name" name="firstname" type="text"></input><br>
+        <label for="last-name"><br>Last name:</label><br>
+        <input id="last-name" name="lastname" type="text"></input><br>
+        <!-- radio button -->
+        <label for="gender"><br>Gender:</label><br>
+        <!-- radio button Male -->
+        <input id="male-radio" type="radio" name="gender" value="male"></input>
+        <label for="male-radio">Male<br></label>
+        <!-- radio button female -->
+        <input id="female-radio" type="radio" name="gender" value="female"></input>
+        <label for="female-radio">Female<br></label>
+        <!-- radio button other -->
+        <input id="other-radio" type="radio" name "other" value="other"></input>
+        <label for="other-radio">Other<br></label>
+
+        <!-- selection button -->
+        <label for="programming"><br>Nationality:<br></label>
+        <!-- data list nationality -->
+
+        <select id="suggestion" name="nationality">
+    <option value="indonesian">Indonesian</option>
+    <option value="singapore">Singaporian</option>
+    <option value="malaysian">Malaysian</option>
+    <option value="australian">Australian</option>
+  </select><br>
+
+
+        <!-- checkbox -->
+
+        <label for="languagespoken"><br>Language Spoken:<br></label>
+        <input id="bahasa-indonesia" type="checkbox" name="bahasaindonesia" value="indo"></input>
+        <label for="bahasa-indonesia">Bahasa Indonesia<br></label>
+        <!-- sekat penjelas -->
+        <input id="bahasa-english" type="checkbox" name="english" value="eng"></input>
+        <label for="bahasa-english">English<br></label>
+        <!-- sekat penjelas -->
+        <input id="bahasa-other" type="checkbox" name="other" value="other"></input>
+        <label for="bahasa-other">Other<br></label>
+
+        <!-- text field -->
+
+        <label><br>Bio:<br></label>
+        <textarea></textarea><br>
+        <input type="submit" value="kirim" />
+    </form>
+</body>
